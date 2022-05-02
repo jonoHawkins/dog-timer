@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-2xl mb-3 font-extrabold;
+    }
+    h2 {
+        @apply text-xl mb-3 font-extrabold;
+    }
+    h3 {
+        @apply text-lg mb-3 font-extrabold;
+    }
+
+    p {
+        @apply mb-3;
+    }
+
+    .ul {
+        @apply list-disc pl-5;
+    }
+
+    .ol {
+        @apply list-decimal pl-5;
+    }
+
+    a {
+        @apply font-medium text-blue-600 hover:text-indigo-500;
+    }
+}
